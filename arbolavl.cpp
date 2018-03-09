@@ -14,7 +14,7 @@ ArbolAVL::ArbolAVL(DataFile * a)
     archivo=a;
 }
 
-//Agregar
+
 void ArbolAVL::add(int v,int nr)
 {
     Nodo * n=new Nodo(v,nr);
@@ -30,7 +30,7 @@ void ArbolAVL::agg(Nodo * n)
         raiz=insertar(raiz,n);
 }
 
-//Agregar Recursivamente
+
 Nodo * ArbolAVL::insertar(Nodo *&sraiz,Nodo * n)
 {
     Nodo * nuevoPadre=sraiz;
@@ -69,7 +69,7 @@ Nodo * ArbolAVL::insertar(Nodo *&sraiz,Nodo * n)
     }
     else
         cout<<"Nodo Duplicado"<<endl;
-    //Actualizar altura
+
     if(sraiz->izquierdo==0 && sraiz->derecho!=0)
     {
         sraiz->fe=sraiz->derecho->fe+1;
@@ -87,13 +87,13 @@ Nodo * ArbolAVL::insertar(Nodo *&sraiz,Nodo * n)
     return nuevoPadre;
 }
 
-//Buscar
+
 Nodo * ArbolAVL::buscar(int v)
 {
     return buscarAux(v,raiz);
 }
 
-//Buscar Recursivamente
+
 Nodo * ArbolAVL::buscarAux(int v,Nodo *&r)
 {
     if(r==0)
@@ -107,7 +107,7 @@ Nodo * ArbolAVL::buscarAux(int v,Nodo *&r)
     return buscarAux(v,r->derecho);
 }
 
-//Obtener Factor de equilibrio
+
 int ArbolAVL::obtenerFE(Nodo * n)
 {
     if(n==0)
@@ -132,6 +132,7 @@ Nodo * ArbolAVL::rotacionIzquierda(Nodo *r)
     int b=obtenerFE(hijoDer->derecho);
     hijoDer->fe= (a>b ? a:b)+1;
     return hijoDer;
+
 }
 
 Nodo* ArbolAVL::rotacionDerecha(Nodo *r)
@@ -249,8 +250,10 @@ void posOrden(Nodo *r){
 }
 
 const char *path(){
-    return "C:\\Users\\saint\\Documents\\ArbolAVLArchivos\\Indices.data";
+    return "C:\\Users\\saint\\CLionProjects\\ArbolAVLArchivos\\Indices.data";
 }
+
+
 
 
 
