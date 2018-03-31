@@ -189,6 +189,116 @@ void ArbolAVL::initFromChar(char * data)
     Nodo * r=initAux(data,pos);
     agg(r);
 }
+void eliminarNodo(Nodo *recorrer, int buscado){
+/*
+    if (recorrer!=NULL){
+        if(buscado < recorrer->dato){
+            PadreAB=recorrer;
+            eliminarNodo(recorrer->izq, buscado);
+        }else if(buscado > recorrer->dato){
+            PadreAB=recorrer;
+            eliminarNodo(recorrer->dere, buscado);
+        }else{
+
+
+            if (recorrer->izq==NULL && recorrer->dere==NULL){
+                if(PadreAB->izq==recorrer){
+                    PadreAB->izq=NULL;
+                    delete(recorrer);
+                }else{
+                    PadreAB->dere=NULL;
+                    delete(recorrer);
+                }
+            }else
+            if((recorrer->izq == NULL && recorrer->dere != NULL)|| (recorrer->izq != NULL && recorrer->dere == NULL)){
+
+                if(recorrer->izq == NULL && recorrer->dere != NULL){
+                    sHijo=recorrer->dere;
+                    if(PadreAB->izq==recorrer){
+                        PadreAB->izq=sHijo;
+                        sHijo->padre=PadreAB;
+                        delete(recorrer);
+                    }else{
+                        PadreAB->dere=sHijo;
+                        sHijo->padre=PadreAB;
+                        delete(recorrer);
+                    }
+                }else{
+                    sHijo=recorrer->izq;
+                    if(PadreAB->izq==recorrer){
+                        PadreAB->izq=sHijo;
+                        sHijo->padre=PadreAB;
+                        delete(recorrer);
+                    }else{
+                        PadreAB->dere=sHijo;
+                        sHijo->padre=PadreAB;
+                        delete(recorrer);
+                    }
+                }
+            }else{
+
+
+
+                if(recorrer->izq != NULL && recorrer->dere != NULL){
+
+                    predecesor=recorrer->izq;
+
+                    if(predecesor->izq == NULL && predecesor->dere ==NULL){
+                        recorrer->dato=predecesor->dato;
+                        recorrer->izq=NULL;
+                        delete(predecesor);
+                    }else{
+                        predecesor=recorrer->dere;
+
+                        if(predecesor->izq == NULL && predecesor->dere ==NULL){
+                            recorrer->dato=predecesor->dato;
+                            recorrer->dere=NULL;
+                            delete(predecesor);
+                        }else{
+                            predecesor=recorrer->izq;
+                            if(predecesor->dere==NULL){
+                                recorrer->dato=predecesor->dato;
+                                recorrer->izq=predecesor->izq;
+                                sHijo=predecesor->izq;
+                                sHijo->padre=recorrer;
+                                delete(predecesor);
+                            }else{
+                                predecesor=recorrer->dere;
+                                if(predecesor->izq==NULL){
+                                    recorrer->dato=predecesor->dato;
+                                    recorrer->dere=predecesor->dere;
+                                    sHijo=predecesor->dere;
+                                    sHijo->padre=recorrer;
+                                    delete(predecesor);
+                                }else{
+                                    predecesor=recorrer->izq;
+                                    sHijo=predecesor;
+
+                                    while(sHijo->dere!=NULL){
+                                        predecesor=sHijo;
+                                        sHijo=sHijo->dere;
+                                    }
+
+                                    recorrer->dato=sHijo->dato;
+                                    predecesor->dere=sHijo->izq;
+                                    hijoHijo=sHijo->izq;
+                                    hijoHijo->padre=predecesor;
+
+                                    delete(sHijo);
+
+                                }
+                            }
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }else{
+        cout<<"El nodo no se encuentra en el arbol"<<endl;
+    }*/
+}
 
 Nodo * ArbolAVL::initAux(char * data,int pos)
 {

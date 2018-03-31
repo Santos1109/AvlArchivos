@@ -1,4 +1,4 @@
-C:\Users\saint\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4548.31\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\saint\Documents\ArbolAVLArchivos
+C:\Users\saint\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\181.4203.549\bin\cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\saint\Documents\GitHub\AvlArchivos
 -- The C compiler identification is GNU 7.2.0
 -- The CXX compiler identification is GNU 7.2.0
 -- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/gcc.exe
@@ -15,4 +15,4 @@ C:\Users\saint\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\173.4548.31\bin\c
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug
+-- Build files have been written to: C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug

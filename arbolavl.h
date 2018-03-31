@@ -14,6 +14,7 @@ class ArbolAVL
         Nodo * buscarAux(int v,Nodo *&r);
         Nodo * buscar(int v);
         int obtenerFE(Nodo * n);
+        void eliminarNodo(Nodo *recorrer, int buscado);
         Nodo * rotacionIzquierda(Nodo *r);
         Nodo * rotacionDerecha(Nodo *r);
         Nodo * rotacionDIzquierda(Nodo *r);

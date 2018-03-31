@@ -8,28 +8,28 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ArbolAVLArchivos">
-				<Option output="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/ArbolAVLArchivos.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug"/>
+				<Option output="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/ArbolAVLArchivos.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -42,15 +42,15 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArbolAVLArchivos"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArbolAVLArchivos"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ArbolAVLArchivos/fast">
-				<Option output="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/ArbolAVLArchivos.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug"/>
+				<Option output="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/ArbolAVLArchivos.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -63,45 +63,45 @@
 					<Add directory="C:/Program Files (x86)/mingw-w64/i686-7.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.2.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArbolAVLArchivos/fast"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArbolAVLArchivos/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug"/>
+				<Option working_dir="C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-7~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/arbolavl.cpp">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/arbolavl.cpp">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/arbolavl.h">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/arbolavl.h">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/datafile.cpp">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/datafile.cpp">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/datafile.h">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/datafile.h">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/main.cpp">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/main.cpp">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/nodo.cpp">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/nodo.cpp">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/nodo.h">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/nodo.h">
 			<Option target="ArbolAVLArchivos"/>
 		</Unit>
-		<Unit filename="C:/Users/saint/Documents/ArbolAVLArchivos/CMakeLists.txt">
+		<Unit filename="C:/Users/saint/Documents/GitHub/AvlArchivos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

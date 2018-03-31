@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/saint/Documents/ArbolAVLArchivos/arbolavl.cpp" "C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/arbolavl.cpp.obj"
-  "C:/Users/saint/Documents/ArbolAVLArchivos/datafile.cpp" "C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/datafile.cpp.obj"
-  "C:/Users/saint/Documents/ArbolAVLArchivos/main.cpp" "C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/main.cpp.obj"
-  "C:/Users/saint/Documents/ArbolAVLArchivos/nodo.cpp" "C:/Users/saint/Documents/ArbolAVLArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/nodo.cpp.obj"
+  "C:/Users/saint/Documents/GitHub/AvlArchivos/arbolavl.cpp" "C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/arbolavl.cpp.obj"
+  "C:/Users/saint/Documents/GitHub/AvlArchivos/datafile.cpp" "C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/datafile.cpp.obj"
+  "C:/Users/saint/Documents/GitHub/AvlArchivos/main.cpp" "C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/main.cpp.obj"
+  "C:/Users/saint/Documents/GitHub/AvlArchivos/nodo.cpp" "C:/Users/saint/Documents/GitHub/AvlArchivos/cmake-build-debug/CMakeFiles/ArbolAVLArchivos.dir/nodo.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
